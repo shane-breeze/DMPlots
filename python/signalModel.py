@@ -2,7 +2,7 @@ import os
 import glob
 import re
 
-from HCTUtils import getLimitsFromFile
+from Utils import getLimitsFromFile
 
 class SignalModel:
     def __init__(self, path):

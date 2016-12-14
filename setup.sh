@@ -8,6 +8,7 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 cd $DIR
 python splash.py
 export PYTHONPATH=${PWD}/:${PYTHONPATH}
+export PYTHONPATH=${PWD}/Core/:${PYTHONPATH}
 export PYTHONPATH=${PWD}/python/:${PYTHONPATH}
 export GITBASE=${PWD}
 cd - > /dev/null
